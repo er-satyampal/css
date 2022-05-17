@@ -1,0 +1,56 @@
+* {
+    text-align: center;
+    color: rgb(232, 218, 243);
+}
+
+body {
+    background-color: rgb(244, 209, 209);
+    background-image: url("https://i.ibb.co/Tmk47Mt/photo-1531366936337-7c912a4589a7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#student_data:hover {
+    background-color: rgb(145, 169, 29);
+    font-size: x-large;
+    opacity: 0.5;
+}
+
+.design {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 20px;
+    background-color: rgb(221, 156, 77);
+    border: 2px solid #3f1212;
+    margin: 50px;
+    padding: 10px;
+}
+
+p {
+    color: #00eb66 !important;
+}
+
+.smart {
+    border-style: dotted dashed solid double;
+    border-width: thick;
+    border-color: red green blue yellow;
+    border-radius: 25px;
+}
+
+.beautify {
+    color: #00eb66;
+    background-color: rgb(2, 89, 60);
+    border: #00eb66 solid 1px;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.beautify:hover {
+    color: #04c357;
+    background-color: rgb(1, 55, 37);
+    border: #03b14e solid 1px;
+    border-radius: 12px;
+    text-decoration: none;
+    padding: 7px;
+}
