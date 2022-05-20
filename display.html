@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d-style {
+            margin: 20px;
+            font-size: larger;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 30px;
+            color: darkblue;
+        }
+
+        .visibility-off {
+            display: none;
+        }
+
+        .is-invalid {
+            color: red;
+        }
+
+        .is-valid {
+            color: greenyellow;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="d-style">
+        <p>This is p tag for showing the text data in HTML View</p>
+        <span class="is-valid">Your data has been submitted successfully</span>
+        <br />
+        <span class="is-invalid">We are unble to process your data</span>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".is-valid").addClass("visibility-off");
+        });
+    </script>
+</body>
+
+</html>
