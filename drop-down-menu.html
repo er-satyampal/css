@@ -2,11 +2,36 @@
 <html lang="en">
 <head>
     <style>
+      .dropdown{
+          height: 20px;
+          width:40px;
+          position: absolute;
 
+      }
+      .dropdown1{
+          display: none;
+          position: absolute;
+          background-color: antiquewhite;
+          color:black;
+          padding: 20px;
+          margin:auto;
+      }
+      .dropdown:hover .dropdown1{
+          display: block;
+      }
     </style>
     <title>Drop-down-menue</title>
 </head>
 <body>
-    
+    <p>
+        This is a Paragraph.
+    </p>
+    <div class="dropdown">
+        <span>Hover on me..</span>
+        <div class="dropdown1">
+            <p>Why u follow the cammand...!</p>
+        </div>
+    </div>
+
 </body>
 </html>
