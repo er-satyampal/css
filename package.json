@@ -1,0 +1,22 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "landing page for css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palsatyam/css.git"
+  },
+  "author": "Satyam Pal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palsatyam/css/issues"
+  },
+  "homepage": "https://github.com/palsatyam/css#readme",
+  "keywords": [
+    "css"
+  ]
+}
