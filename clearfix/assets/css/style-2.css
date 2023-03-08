@@ -1,0 +1,95 @@
+body {
+    margin: 50px;
+}
+.style-1{
+    border:2px dashed black;
+    margin-bottom: 20px;
+    padding: 20px;
+    outline: 2px solid black;
+    outline-offset: 2px;
+}
+.style-2{
+    border:2px solid black;
+    border-radius: 13px;
+    padding: 13px;
+    outline: 1px dotted black;
+    outline-offset: 5px;
+    outline-width: 2px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    word-spacing: 2px;
+    text-indent: -2px;
+    text-transform: capitalize;
+}
+h1{
+    text-shadow: 2px 1px 5px red;
+}
+#glow{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+    margin-top: 49px;
+}
+div>blockquote:hover {
+    background-color: bisque;
+}
+.mod{
+    display: flex;
+    flex-wrap: wrap;
+}
+.round {
+    border: 2px solid rgb(185, 184, 184);
+    border-radius: 200px;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+    font-size: 24px;
+}
+.td-none{
+    text-decoration: none;
+}
+/* */
+.facebook {
+    background-color: #4267b2;
+    padding: 10px;
+}
+.facebook>a{
+    color: #fff;
+}
+/* */
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    padding: 10px;
+}
+.instagram>a{
+    color: #fff;
+}
+/* */
+.whatsapp {
+    background-color: #25d366;
+    padding: 10px;
+}
+.whatsapp>a{
+    color: #fff;
+}
+/* */
+.telegram {
+    background-color: #229ED9;
+    padding: 10px;
+}
+.telegram>a{
+    color: #fff;
+}
+/* */
+.linkedin {
+    background-color: #0072b1;
+    padding: 10px;
+}
+.linkedin:hover {
+    background-color: #015d8f;
+    padding: 10px;
+}
+.linkedin>a{
+    color: #fff;
+}
