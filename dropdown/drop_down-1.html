@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn{
+            background-color: rgb(31, 92, 46);
+            color: white;
+            padding: 16px;
+            font-size: 20px;
+            border: solid;
+            cursor: pointer;
+        }
+        .maindiv{
+            position: relative;
+            display:inline-block;
+        }
+        .links_type{
+            display: none;
+            position: absolute;
+          
+        }
+        .links_type a{
+            background-color: rgb(82, 202, 136);
+            text-decoration: none;
+            color: rgb(1, 12, 12);
+            padding: 10px;
+            margin: 0 0 0 10px;
+            font-size: 15px;
+            display: block;
+            z-index: 1;
+
+        }
+        .links_type a:hover{
+            display: block;
+            color: black;
+
+        }
+        .maindiv:hover .btn{
+            display: block;
+        }
+        .links_type a:hover {background-color: #297e4c}
+
+        .maindiv:hover  .links_type {
+                 display: block;
+                }
+
+.maindiv:hover .btn {
+  background-color: #132b18;
+}
+
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <button class="btn">Home</button>
+        <div class="links_type">
+            <a href="#">Home-1</a>
+            <a href="#">Home-2</a>
+            <a href="#">Home-3</a>
+        </div>
+    </div>
+</body>
+</html>
+
