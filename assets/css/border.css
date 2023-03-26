@@ -1,34 +1,53 @@
+/* h1{
+    border:solid;
+}
+
 h1{
-    border: 2px solid red;
-    background-image: linear-gradient( red, green, blue );
+    border:solid rgb(211, 10, 10) 3px;
 }
-h2{
-    border: 2px dashed rgb(98, 0, 255);
-    background-image: linear-gradient( red, green, blue );
+
+
+h1{
+    border:solid rgb(174, 211, 10) 3px;
 }
-h3{
-    border:2px dotted rgb(137, 172, 13);
+ */
+
+h1{
+    border:solid rgb(10, 204, 211) 3px;
 }
+
+
 p{
-    border: 2px double rgb(216, 10, 165);
-    background-image: linear-gradient( red, green, blue );
+    border: 10px rgb(180, 108, 108) solid;
 }
 
-h1:hover{
-    border: 2px solid rgb(217, 185, 224);
-    background-image: linear-gradient( rgb(137, 143, 136), rgb(146, 150, 146), rgb(83, 83, 94) );
+/* border-color */
+
+
+h2{
+    border: 3px solid rgb(26, 157, 167);
 }
-h2:hover{
-    border: 2px dashed rgb(23, 184, 149);
-    background-image: linear-gradient( :hoverrgb(204, 136, 136), green, rgb(171, 171, 224) );
-}
-h3:hover{
-    border: 2px dotted rgb(121, 156, 167);
-    background-image: linear-gradient( rgb(143, 73, 73), rgb(53, 83, 53), rgb(213, 213, 223) );
-}
-p:hover{
-    border: 2px double rgb(49, 150, 19);
-    background-image: linear-gradient( rgb(173, 159, 159), rgb(167, 190, 167), rgb(157, 157, 184) );
+
+h3{
+
+
+    height: 100px;
+    text-align: center;
+    width: 100px;
+    padding:40px;
+    margin-top:40px;    
+    border : solid ;
+    border-radius:360px;
 }
 
 
+
+
+
+
+h4{
+    border-left:solid;
+    border-top:dotted;
+    border-bottom: double;
+    border-right: dashed;
+}
